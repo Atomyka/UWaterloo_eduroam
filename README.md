@@ -10,7 +10,7 @@ The most basic, fool-proof method of connecting on Linux I have found is via [iw
 The second file is the digital certificate, whose purpose is also lightly explained below. Actually, you will already have a folder with all certificates on your machine, located in /etc/ca-certificates/extracted/cadir. [UWaterloo](https://uwaterloo.atlassian.net/wiki/spaces/ISTKB/pages/262012990/Connecting+to+Eduroam+-+General+Overview) specificies which specific certificate to use (GlobalSignRootCA - R3). In case you are unsure, the certificate (ca.pem) is uploaded here for you to cross-check.
 
 ## Under the Hood
-But what actually do those specifications mean? At the core of secure wifi is [WPA](https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access) - Wifi Protected Access. It is one of the core security programs overseen by the Wifi-Alliance, a non-profit based in Texaas. Depending on who/where you are - privately using wifi at home or browsing in the network of a larger organization, you will be using either WPA-Personal or WPA-Enterprise. 
+But what actually do those specifications mean? At the core of secure wifi is [WPA](https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access) - Wifi Protected Access. It is one of the core security programs overseen by the Wifi-Alliance, a non-profit bundle of companies based in Texas. Depending on who/where you are - privately using wifi at home or browsing in the network of a larger organization, you will be using either WPA-Personal or WPA-Enterprise. 
 
 <img title="EAP setup" alt="EAP setup" src="https://upload.wikimedia.org/wikipedia/commons/1/1f/802.1X_wired_protocols.png">
 *Source: [Wikipedia](https://en.wikipedia.org/wiki/IEEE_802.1X)* 
