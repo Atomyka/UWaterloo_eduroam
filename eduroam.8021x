@@ -1,0 +1,11 @@
+[Security]
+EAP-Method=PEAP
+EAP-Identity=anonymous@uwaterloo.ca
+EAP-PEAP-CACert=/etc/ca-certificates/extracted/cadir/ca.pem 
+EAP-PEAP-ServerDomainMask=eduroam.uwaterloo.ca
+EAP-PEAP-Phase2-Method=MSCHAPV2
+EAP-PEAP-Phase2-Identity=[username]@uwaterloo.ca
+EAP-PEAP-Phase2-Password=[password]
+
+[Settings]
+AutoConnect=true
