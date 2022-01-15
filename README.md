@@ -13,8 +13,7 @@ The second file is the digital certificate, whose purpose is also lightly explai
 But what actually do those specifications mean? At the core of secure wifi is [WPA](https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access) - Wifi Protected Access. It is one of the core security programs overseen by the Wifi-Alliance, a non-profit based in Texaas. Depending on who/where you are - privately using wifi at home or browsing in the network of a larger organization, you will be using either WPA-Personal or WPA-Enterprise. 
 
 <img title="EAP setup" alt="EAP setup" src="https://upload.wikimedia.org/wikipedia/commons/1/1f/802.1X_wired_protocols.png">
-![image](https://upload.wikimedia.org/wikipedia/commons/1/1f/802.1X_wired_protocols.png)
-
+*Source: [Wikipedia](https://en.wikipedia.org/wiki/IEEE_802.1X)* 
 
 The latter is relevant for eduroam, so let's take a closer look: Structurally, there are 3 components in the connection process: You (or rather your laptop), an authenticator and an authentication server. Picture that server as the guardian of the network - you have to prove your worthiness to the server to gain access. How to succeed? Using your username, password and the digital certificate. Combined together, these will allow you to perform a handshake with the server. And what is the right etiquette to talk to this server? It's the [MSCHAPV2](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-chap/4740bf05-db7e-4542-998f-5a4478768438) protocol, developed by Microsoft. 
 
